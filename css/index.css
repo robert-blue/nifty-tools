@@ -1,0 +1,9 @@
+#results {
+    height: 20rem;
+}
+
+#refreshStatus {
+    color: hotpink;
+    margin-left: 1rem;
+    display: inline-block;
+}

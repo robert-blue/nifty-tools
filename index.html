@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/milligram.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row header">
+        <h2>List owners of NFTs in a schema</h2>
+    </div>
+
+    <div class="row">
+
+        <fieldset>
+            <label for="collectionName">Collection Name:
+                <input id="collectionName" value="dropbearsnft">
+            </label>
+
+            <label for="schemaName">Schema Name:
+                <input id="schemaName" value="dropbears">
+            </label>
+
+
+            <a class="clearfix button" id="listSchemaOwnersButton">List Owners</a>
+            <div id="refreshStatus"></div>
+        </fieldset>
+    </div>
+
+    <div id="errors"></div>
+
+    <h3>Results</h3>
+    <textarea id="results"></textarea>
+    <a class="button" id="copyResultsButton">Copy Results to Clipboard</a>
+</div>
+
+
+<script type="application/javascript" src="script.js"></script>
+
+</body>
+</html>
